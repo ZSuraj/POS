@@ -1,0 +1,16 @@
+.home-container {
+  min-height: 100vh;
+  max-width: -webkit-fill-available;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #111315;
+  /* margin-top: 5px; */  
+}
+
+@media only screen and (max-width: 689px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

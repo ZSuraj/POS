@@ -1,0 +1,35 @@
+.orders-list-container {
+    height: 100vh;
+    background-color: #111315;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.order-table tr td,
+.order-table tr th {
+    height: 50px;
+}
+
+.order-table .order-container:nth-child(even) {
+    background-color: #d66616;
+    color: white;
+}
+
+.order-table tr th,
+.order-table tr td {
+    border-bottom: 1px solid #ddd!important;
+    color: white;
+}
+
+.order-container:nth-child(odd) {
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.remove-btn {
+    cursor: pointer;
+}

@@ -1,0 +1,138 @@
+.kot-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.kot-content-container {
+    max-height: calc(100vh - 170px);
+    font-family: sans-serif, system-ui;
+    width: 333px;
+    height: 100%;
+    padding: 10px 25px;
+    background-color: white;
+    overflow-y: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.restaurant-name-container > h2 {
+    font-size: 25px;
+}
+
+.restaurant-details-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.date-container {
+    display: flex;
+}
+
+.invoice-container {
+    display: flex;
+}
+
+.customer-details-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.customer-name-container {
+    display: flex;
+}
+
+.customer-email-container {
+    display: flex;
+}
+
+.time-container {
+    display: flex;
+}
+
+.orderNo-container {
+    display: flex;
+}
+
+.p {
+    margin: 0;
+}
+
+.total-price-container {
+    width: 100%;
+}
+
+.total-price-container-1 {
+    float: right;
+}
+
+.subtotal-container {
+    display: flex;
+}
+
+.tax-rate-container {
+    display: flex;
+}
+
+.tax-container {
+    display: flex;
+}
+
+.total-container {
+    display: flex;
+}
+
+.status-container {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.thank-note-container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.kot-table,
+.kot-table > tr > th, 
+.kot-table > tr > td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.kot-table {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.print-invoice-btn {
+    background-color: #d66616;
+    color: white;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.p-b {
+    font-weight: 600;
+}

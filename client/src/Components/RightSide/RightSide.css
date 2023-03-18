@@ -1,0 +1,16 @@
+.rightside-container {
+    max-width: 270px;
+    width: calc(100% - 270px);
+    display: flex;
+    align-items: center;
+    flex-grow: 0.2;
+    margin: 2px;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 689px) {
+    .rightside-container {
+        max-width: -webkit-fill-available;
+      width: 100%;
+    }
+  }

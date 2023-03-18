@@ -1,0 +1,53 @@
+.item-container {
+    width: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 4px 4px 0px 4px;
+    /* background-color: #2d2d2d; */
+    background-color: rgb(214, 102, 22);
+    border-radius: 5px;
+    /* position: absolute;
+    right: -100%;
+    animation: slideLeft 1s forwards; */
+}
+
+.item-price-container > h6,
+.item-price-container > p {
+    margin: 0;
+    color: white;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.icons-container > .plus,
+.icons-container > .minus,
+.icons-container > .nos {
+    margin: 0px 10px 0px 0px;
+    font-size: 18px;
+    color: white;
+}
+
+.icons-container > .plus,
+.icons-container > .minus {
+    cursor: pointer;
+}
+
+@keyframes slideLeft {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 689px) {
+    .item-container {
+        width: 98%;
+    }
+  }

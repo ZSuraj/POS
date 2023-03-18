@@ -1,0 +1,65 @@
+.modal-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.modal-container-content {
+    max-height: calc(100vh - 400px);
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 333px;
+    height: 220px;
+    padding: 10px;
+    background-color: white;
+    overflow-y: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form > input {
+    margin-top: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+
+/* .avatar {
+    margin-top: 10px;
+} */
+
+.customer-details > h6 {
+    margin-bottom: 0px;
+}
+
+.register-btn {
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #009dff;
+    border: 1px solid #009dff;
+    transition: 0.5s;
+    border-radius: 5px;
+    max-width: 330px;
+    width: 90%;
+}
+
+.register-btn:hover {
+    background-color: #046dff;
+}
+
